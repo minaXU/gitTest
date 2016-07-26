@@ -13,10 +13,6 @@
 		DB8BE3C31D47A4DB0071786F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8BE3C21D47A4DB0071786F /* Assets.xcassets */; };
 		DB8BE3C61D47A4DB0071786F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8BE3C41D47A4DB0071786F /* LaunchScreen.storyboard */; };
 		DB8BE3D11D47A4DB0071786F /* gitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BE3D01D47A4DB0071786F /* gitTestTests.swift */; };
-		DB8BE3E01D47CBC10071786F /* twoClass1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BE3DF1D47CBC10071786F /* twoClass1.swift */; };
-		DB8BE3E21D47CBCD0071786F /* twoClass2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BE3E11D47CBCD0071786F /* twoClass2.swift */; };
-		DB8BE3DC1D47CB410071786F /* 1号的类1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BE3DB1D47CB410071786F /* 1号的类1.swift */; };
-		DB8BE3DE1D47CB6F0071786F /* oneClass2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BE3DD1D47CB6F0071786F /* oneClass2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +36,6 @@
 		DB8BE3CC1D47A4DB0071786F /* gitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8BE3D01D47A4DB0071786F /* gitTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitTestTests.swift; sourceTree = "<group>"; };
 		DB8BE3D21D47A4DB0071786F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB8BE3DF1D47CBC10071786F /* twoClass1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = twoClass1.swift; path = ../twoClass1.swift; sourceTree = "<group>"; };
-		DB8BE3E11D47CBCD0071786F /* twoClass2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = twoClass2.swift; path = ../twoClass2.swift; sourceTree = "<group>"; };
-		DB8BE3DB1D47CB410071786F /* 1号的类1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1号的类1.swift"; sourceTree = "<group>"; };
-		DB8BE3DD1D47CB6F0071786F /* oneClass2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oneClass2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +79,6 @@
 			children = (
 				DB8BE3BB1D47A4DB0071786F /* AppDelegate.swift */,
 				DB8BE3BD1D47A4DB0071786F /* ViewController.swift */,
-				DB8BE3DF1D47CBC10071786F /* twoClass1.swift */,
-				DB8BE3E11D47CBCD0071786F /* twoClass2.swift */,
-				DB8BE3DB1D47CB410071786F /* 1号的类1.swift */,
-				DB8BE3DD1D47CB6F0071786F /* oneClass2.swift */,
 				DB8BE3BF1D47A4DB0071786F /* Main.storyboard */,
 				DB8BE3C21D47A4DB0071786F /* Assets.xcassets */,
 				DB8BE3C41D47A4DB0071786F /* LaunchScreen.storyboard */,
@@ -211,11 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB8BE3E21D47CBCD0071786F /* twoClass2.swift in Sources */,
-				DB8BE3DE1D47CB6F0071786F /* oneClass2.swift in Sources */,
-				DB8BE3DC1D47CB410071786F /* 1号的类1.swift in Sources */,
 				DB8BE3BE1D47A4DB0071786F /* ViewController.swift in Sources */,
-				DB8BE3E01D47CBC10071786F /* twoClass1.swift in Sources */,
 				DB8BE3BC1D47A4DB0071786F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,7 +390,6 @@
 				DB8BE3D71D47A4DB0071786F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		DB8BE3D81D47A4DB0071786F /* Build configuration list for PBXNativeTarget "gitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -415,7 +398,6 @@
 				DB8BE3DA1D47A4DB0071786F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
